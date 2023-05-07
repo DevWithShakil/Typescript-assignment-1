@@ -50,6 +50,15 @@ Difference between an "unknown" and "any" type in TypeScript:
 4. The "types" any and "unknown" are two primitive types in TypeScript that can come in handy sometimes.
 
 
+Q3.
+
+Example of how to use generics in TypeScript:
+
+To define a generic type, to use the angle bracket notation (< >) followed by the type parameter name(s). For example, let's define a simple generic function that takes an array of any type and returns its first element:
+
+function getFirst<T>(arr: T[]): T {
+  return arr[0];
+}
 
 
 
