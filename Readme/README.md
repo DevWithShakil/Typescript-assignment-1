@@ -40,6 +40,18 @@ Q6.
 2. Commonly used when you have information about the specific type for the value that TypeScript may not be able to determine on its own.
 
 
+Q4.
+
+Difference between an "unknown" and "any" type in TypeScript:
+
+1. TypeScript forces us to determine the "type" of the "unknown" value before we can work with it, but it doesn’t with the any value.
+2. We cannot assign "unknown" to anything but itself or any, while we can assign any to anything.
+3. We can use the "unknownType" to describe a value that we don’t know. For example, a value returned from a network call.
+4. The "types" any and "unknown" are two primitive types in TypeScript that can come in handy sometimes.
+
+
+
+
 
 
 
